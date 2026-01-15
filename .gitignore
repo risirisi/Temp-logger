@@ -1,41 +1,15 @@
-# Prerequisites
-*.d
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# VS Code
+.vscode/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compiled binaries
+*.elf
+*.hex
+*.bin
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# OS junk
+.DS_Store
