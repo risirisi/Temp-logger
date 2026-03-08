@@ -10,3 +10,6 @@ Main goal is to build a system that:
 
 Hardware
 
+MCU
+  - ESP 32 Wrover-e
+  - 
