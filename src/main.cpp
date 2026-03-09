@@ -1,19 +1,28 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+unsigned long last_time = 0;
+float temp = 25.0;
+
+
 
 void setup() {
- Serial.begin(115200);
+Serial.begin(115200);
+
+delay(2000);
+
+Serial.println("time_ms, temp_c");
 }
 
 void loop() {
-  Serial.println("Hello");
-  delay(1000);
+
+  if ( millis() - last_time >= 1000 ) {
+
+    last_time = millis();
+    Serial.print(last_time);
+    Serial.print(",");
+    Serial.println(temp);
+
+  }
 
 }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
