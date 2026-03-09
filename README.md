@@ -10,6 +10,9 @@ Main goal is to build a system that:
 
 Hardware
 
-MCU
   - ESP 32 Wrover-e
-  - 
+  - Researched between the DHT22 and the DS18B20, going with the DS18B20 due to its more durable nature and being more accurate ( waterproof)
+  - Breadboard
+  - Jumper wires
+  - LED's
+
