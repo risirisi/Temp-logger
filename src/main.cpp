@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 unsigned long last_time = 0;  // for timer values you always use unsigned long
-float temp = 25.0;
+float temp = 26.0;
 
 // new function, void since the func returns nothing
 
