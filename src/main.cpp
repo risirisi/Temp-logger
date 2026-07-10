@@ -20,6 +20,7 @@ void log_temp(){
 void setup() {
 
 Serial.begin(115200);
+delay(3000);
 Serial.println("time_ms, temp_c");
 
 }
